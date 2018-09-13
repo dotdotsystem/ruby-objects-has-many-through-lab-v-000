@@ -19,13 +19,14 @@ end
 
 
 def songs
-  Arist.all.select do |song|
-    name.song
+   Song.all.select do |song|
+     song.artist == self
+   end
 end
 
 def genres
-  Artist.map do |genre|
-    genre.songs
+  Song.map do |genre|
+    song.genre
   end
 
 end
