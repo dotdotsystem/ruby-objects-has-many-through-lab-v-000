@@ -30,3 +30,4 @@ def genres
   end
 
 end
+end 
