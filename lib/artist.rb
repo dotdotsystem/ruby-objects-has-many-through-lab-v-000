@@ -17,7 +17,7 @@ end
 
 def songs
   Arist.all.select do |song|
-    Artist.song
+    name.song
 end
 
 def genres
